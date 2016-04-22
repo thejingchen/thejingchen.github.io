@@ -32,4 +32,11 @@ $(document).ready(function() {
   	$("#top-bar span").css("color", "black");
   });
 
+  $("#first-row").click(function(){
+    $("#second-row, #third-row").hide();
+    $("#top-bar").hide();
+    $("#description").hide();
+    $("#first-row").css("margin-top","5%");
+  });
+
 });
