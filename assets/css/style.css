@@ -27,13 +27,13 @@ body {
 }
 
 #return-to-home {
-	height: 30px;
+	height: 40px;
 	width: 20%;
 	margin: 0 auto;
 	text-align: center;
 	font-family: "Lato";
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 20px;
 	visibility: hidden;
 }
 
