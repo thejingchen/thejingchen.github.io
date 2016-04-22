@@ -22,8 +22,8 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	font-family: "Lato";
-	font-weight: 300;
-	font-size: 20px;
+	font-weight: 100;
+	font-size: 25px;
 }
 
 #return-to-home {
@@ -50,6 +50,9 @@ body {
 	position: relative;
 	text-align: center;
 	position: relative;
+}
+
+.row-active {
 }
 
 .category {
@@ -86,8 +89,39 @@ body {
 	transition: .5s;
 }
 
-#third-row {
-	margin-bottom: 20px;
+#icons {
+	height: 50px;
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+#icons img {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 15px;
+	height: 30px;
+}
+
+#icons img:hover {
+	opacity: 0.5;
+	transition: 0.2s;
+}
+
+#mail img {
+	height: 32px;
+}
+
+#icon-credit {
+	height: 15px;
+	font-family: "Lato";
+	font-weight: 100;
+	font-size: 10px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform:translateY(50%);
 }
 
 svg {
@@ -113,8 +147,4 @@ path {
 
 #name-box {
 	background-color: #00384d;
-}
-
-.row-active {
-
 }
