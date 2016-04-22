@@ -45,10 +45,56 @@ $(document).ready(function() {
     }
   });
 
+  $("#second-row").click(function(){
+    if (!$("#second-row").hasClass(".row-active")) {
+      $("#second-row").addClass(".row-active");
+      $("#first-row, #third-row").fadeOut(200);
+      $("#top-bar").fadeOut(200);
+      $("#description").fadeOut(200);
+      setTimeout(function() {
+        $("#return-to-home div").css("visibility","visible");
+      }, 500);   
+      $("#second-row").fadeOut(200).delay(200).fadeIn(500);
+    }
+  });
+
+  $("#third-row").click(function(){
+    if (!$("#third-row").hasClass(".row-active")) {
+      $("#third-row").addClass(".row-active");
+      $("#second-row, #first-row").fadeOut(200);
+      $("#top-bar").fadeOut(200);
+      $("#description").fadeOut(200);
+      setTimeout(function() {
+        $("#return-to-home div").css("visibility","visible");
+      }, 500);   
+      $("#third-row").fadeOut(200).delay(200).fadeIn(500);
+    }
+  });
+
   $("#return-to-home").click(function(){
     if ($("#first-row").hasClass(".row-active")) {
       $("#first-row").removeClass(".row-active")
       $("#first-row").fadeOut(300);
+      setTimeout(function() {
+        $("#first-row, #second-row, #third-row").fadeIn(300);
+        $("#top-bar").fadeIn(300);
+        $("#description").fadeIn(300);
+        $("#return-to-home div").css("visibility","hidden");
+      }, 300);
+    }
+    else if ($("#second-row").hasClass(".row-active")) {
+      $("#second-row").removeClass(".row-active")
+      $("#second-row").fadeOut(300);
+      setTimeout(function() {
+        $("#first-row, #second-row, #third-row").fadeIn(300);
+        $("#top-bar").fadeIn(300);
+        $("#description").fadeIn(300);
+        $("#return-to-home div").css("visibility","hidden");
+      }, 300);
+    }
+    else if ($("#third-row").hasClass(".row-active")) {
+      $("#third-row").removeClass(".row-active")
+      $("#third-row").fadeOut(300);
       setTimeout(function() {
         $("#first-row, #second-row, #third-row").fadeIn(300);
         $("#top-bar").fadeIn(300);
