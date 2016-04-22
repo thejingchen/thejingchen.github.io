@@ -38,6 +38,7 @@ $(document).ready(function() {
       $("#second-row, #third-row").fadeOut(200);
       $("#top-bar").fadeOut(200);
       $("#description").fadeOut(200);
+      $("#icons").fadeOut(200);
       setTimeout(function() {
         $("#return-to-home div").css("visibility","visible");
       }, 500);   
@@ -51,6 +52,7 @@ $(document).ready(function() {
       $("#first-row, #third-row").fadeOut(200);
       $("#top-bar").fadeOut(200);
       $("#description").fadeOut(200);
+      $("#icons").fadeOut(200);
       setTimeout(function() {
         $("#return-to-home div").css("visibility","visible");
       }, 500);   
@@ -64,6 +66,7 @@ $(document).ready(function() {
       $("#second-row, #first-row").fadeOut(200);
       $("#top-bar").fadeOut(200);
       $("#description").fadeOut(200);
+      $("#icons").fadeOut(200);
       setTimeout(function() {
         $("#return-to-home div").css("visibility","visible");
       }, 500);   
@@ -79,6 +82,7 @@ $(document).ready(function() {
         $("#first-row, #second-row, #third-row").fadeIn(300);
         $("#top-bar").fadeIn(300);
         $("#description").fadeIn(300);
+        $("#icons").fadeIn(300);
         $("#return-to-home div").css("visibility","hidden");
       }, 300);
     }
@@ -89,6 +93,7 @@ $(document).ready(function() {
         $("#first-row, #second-row, #third-row").fadeIn(300);
         $("#top-bar").fadeIn(300);
         $("#description").fadeIn(300);
+        $("#icons").fadeIn(200);
         $("#return-to-home div").css("visibility","hidden");
       }, 300);
     }
@@ -99,6 +104,7 @@ $(document).ready(function() {
         $("#first-row, #second-row, #third-row").fadeIn(300);
         $("#top-bar").fadeIn(300);
         $("#description").fadeIn(300);
+        $("#icons").fadeIn(200);
         $("#return-to-home div").css("visibility","hidden");
       }, 300);
     }
