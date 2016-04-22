@@ -33,10 +33,29 @@ $(document).ready(function() {
   });
 
   $("#first-row").click(function(){
-    $("#second-row, #third-row").hide();
-    $("#top-bar").hide();
-    $("#description").hide();
-    $("#first-row").css("margin-top","5%");
+    if (!$("#first-row").hasClass(".row-active")) {
+      $("#first-row").addClass(".row-active");
+      $("#second-row, #third-row").fadeOut(200);
+      $("#top-bar").fadeOut(200);
+      $("#description").fadeOut(200);
+      setTimeout(function() {
+        $("#return-to-home div").css("visibility","visible");
+      }, 500);   
+      $("#first-row").fadeOut(200).delay(200).fadeIn(500);
+    }
+  });
+
+  $("#return-to-home").click(function(){
+    if ($("#first-row").hasClass(".row-active")) {
+      $("#first-row").removeClass(".row-active")
+      $("#first-row").fadeOut(300);
+      setTimeout(function() {
+        $("#first-row, #second-row, #third-row").fadeIn(300);
+        $("#top-bar").fadeIn(300);
+        $("#description").fadeIn(300);
+        $("#return-to-home div").css("visibility","hidden");
+      }, 300);
+    }
   });
 
 });
