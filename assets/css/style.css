@@ -110,7 +110,7 @@ svg {
 path {
 	stroke-dasharray: 550;
 	stroke-dashoffset: 550;
-	animation: dash 3s ease-in-out infinite;
+	animation: dash 3s ease-in-out forwards;
 }
 
 @keyframes dash {
