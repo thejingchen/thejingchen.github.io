@@ -67,6 +67,7 @@ $("#third-row").hover(function(){
         $("#return-to-home div").css("visibility","visible");
       }, 500);   
       $("#first-row").fadeOut(200).delay(200).fadeIn(500);
+      $("#about-container").delay(400).slideDown(500);
     }
   });
 
@@ -81,6 +82,7 @@ $("#third-row").hover(function(){
         $("#return-to-home div").css("visibility","visible");
       }, 500);   
       $("#second-row").fadeOut(200).delay(200).fadeIn(500);
+      $("#projects-container").delay(400).slideDown(500);
     }
   });
 
@@ -95,6 +97,7 @@ $("#third-row").hover(function(){
         $("#return-to-home div").css("visibility","visible");
       }, 500);   
       $("#third-row").fadeOut(200).delay(200).fadeIn(500);
+      $("#exploration-container").delay(400).slideDown(500);
     }
   });
 
@@ -105,36 +108,39 @@ $("#third-row").hover(function(){
   $("#return-to-home").click(function(){
     if ($("#first-row").hasClass(".row-active")) {
       $("#first-row").removeClass(".row-active")
-      $("#first-row").fadeOut(300);
+      $("#first-row").fadeOut(500);
       setTimeout(function() {
-        $("#first-row, #second-row, #third-row").fadeIn(300);
-        $("#top-bar").fadeIn(300);
-        $("#description").fadeIn(300);
-        $("#icons").fadeIn(300);
+        $("#first-row, #second-row, #third-row").fadeIn(500);
+        $("#top-bar").fadeIn(500);
+        $("#description").fadeIn(500);
+        $("#icons").fadeIn(500);
+      }, 500);
         $("#return-to-home div").css("visibility","hidden");
-      }, 300);
+        $("#about-container").slideUp(500);
     }
     else if ($("#second-row").hasClass(".row-active")) {
       $("#second-row").removeClass(".row-active")
-      $("#second-row").fadeOut(300);
+      $("#second-row").fadeOut(500);
       setTimeout(function() {
-        $("#first-row, #second-row, #third-row").fadeIn(300);
-        $("#top-bar").fadeIn(300);
-        $("#description").fadeIn(300);
-        $("#icons").fadeIn(200);
+        $("#first-row, #second-row, #third-row").fadeIn(500);
+        $("#top-bar").fadeIn(500);
+        $("#description").fadeIn(500);
+        $("#icons").fadeIn(500);
+      }, 500);
         $("#return-to-home div").css("visibility","hidden");
-      }, 300);
+        $("#projects-container").slideUp(500);
     }
     else if ($("#third-row").hasClass(".row-active")) {
       $("#third-row").removeClass(".row-active")
-      $("#third-row").fadeOut(300);
+      $("#third-row").fadeOut(500);
       setTimeout(function() {
-        $("#first-row, #second-row, #third-row").fadeIn(300);
-        $("#top-bar").fadeIn(300);
-        $("#description").fadeIn(300);
-        $("#icons").fadeIn(200);
+        $("#first-row, #second-row, #third-row").fadeIn(500);
+        $("#top-bar").fadeIn(500);
+        $("#description").fadeIn(500);
+        $("#icons").fadeIn(500);
+      }, 500);
         $("#return-to-home div").css("visibility","hidden");
-      }, 300);
+        $("#exploration-container").slideUp(500);
     }
   });
 
