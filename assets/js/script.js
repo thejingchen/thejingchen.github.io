@@ -144,4 +144,44 @@ $("#third-row").hover(function(){
     }
   });
 
+  $("#me130 .project-pic").hover(function() {
+    $("#me130 .project-text p").fadeOut(200);
+    $("#me130 .project-desc").fadeIn(200);
+    }, function() {
+    $("#me130 .project-text p").fadeIn(200);
+    $("#me130 .project-desc").fadeOut(200);
+  });
+
+  $("#me110 .project-pic").hover(function() {
+    $("#me110 .project-text p").fadeOut(200);
+    $("#me110 .project-desc").fadeIn(200);
+    }, function() {
+    $("#me110 .project-text p").fadeIn(200);
+    $("#me110 .project-desc").fadeOut(200);
+  });
+
+  $("#me122 .project-pic").hover(function() {
+    $("#me122 .project-text p").fadeOut(200);
+    $("#me122 .project-desc").fadeIn(200);
+    }, function() {
+    $("#me122 .project-text p").fadeIn(200);
+    $("#me122 .project-desc").fadeOut(200);
+  });
+
+  $("#me107 .project-pic").hover(function() {
+    $("#me107 .project-text p").fadeOut(200);
+    $("#me107 .project-desc").fadeIn(200);
+    }, function() {
+    $("#me107 .project-text p").fadeIn(500);
+    $("#me107 .project-desc").fadeOut(500);
+  });
+
+  $("#me102b .project-pic").hover(function() {
+    $("#me102b .project-text p").fadeOut(500);
+    $("#me102b .project-desc").fadeIn(500);
+    }, function() {
+    $("#me102b .project-text p").fadeIn(500);
+    $("#me102b .project-desc").fadeOut(500);
+  });
+
 });

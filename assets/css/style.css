@@ -156,7 +156,6 @@ path {
 }
 
 #about-container {
-	background-color: rgba(0,0,0,0.1);
 	margin: 0 auto;
 	width: 75%;
 	height: 100%;
@@ -164,16 +163,43 @@ path {
 	margin-top: 10px;
 	font-family: "Lato";
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: center;
 	color: white;
+	overflow: hidden;
+	background-image: url("../img/hiking.jpg");
+	opacity: 0.8;
+}
+
+#about-description {
+	background-color: black;
+	opacity: 0.9;
+	margin: 0 auto;
+	height: 100%;
+	width: 40%;
+	float: left;
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#about-description p {
+	padding: 5px;
+	margin: 5px;
+}
+
+#about-description a {
+	text-decoration: none;
+	color: #ff6666;
+}
+
+#about-description a:hover {
+	opacity: 0.8;
 }
 
 #projects-container {
-	background-color: rgba(0,0,0,0.1);
 	margin: 0 auto;
 	width: 75%;
-	height: 100%;
 	display: none;
 	margin-top: 10px;
 	font-family: "Lato";
@@ -183,16 +209,141 @@ path {
 	color: white;
 }
 
-#exploration-container {
+.project-box {
+	width: 100%;
+	height: 45%;
+	margin: 0 auto;
+	opacity: 0.9;
+	display: inline-block;
+	position: relative;
+}
+
+.project-pic {
+	background-color: white;
+	height: 85%;
+	width: 29%;
+	margin-left: 20px;
+	float: left;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.project-text {
+	background-color: black;
+	color: white;
+	opacity: 0.5;
+	height: 85%;
+	width: 65%;
+	position: absolute;
+	margin-left: 33%;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 10px;
+	text-align: center;
+	position: absolute;
+}
+
+.project-text p {
+	font-family: "Lato";
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px
+}
+
+.project-text a:hover p {
+	opacity: 0.8;
+}
+
+.project-desc {
+	background-color: black;
+	color: white;
+	opacity: 0.5;
+	height: 85%;
+	width: 65%;
+	position: absolute;
+	margin-left: 33%;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 10px;
+	text-align: center;
+	position: absolute;
+	display: none;
+}
+
+.project-desc p {
+	font-family: "Lato";
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px
+}
+
+#me130 {
+	background-color: #00384d;
+}
+
+#me130 img {
+	height: 100%;
+	border-radius: 10px;
+}
+
+#me110 {
 	background-color: rgba(0,0,0,0.1);
+}
+
+#me110 img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+#me122 {
+	background-color: #00384d;
+}
+
+#me122 img {
+	height: 100%;
+	border-radius: 10px;
+}
+
+#me107 {
+	background-color: rgba(0,0,0,0.1);
+}
+
+#me107 img {
+	height: 100%;
+	border-radius: 10px;
+}
+
+#me102b {
+	background-color: #00384d;
+}
+
+#me102b img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+#exploration-container {
+	background-color: rgba(0,0,0,0.75);
 	margin: 0 auto;
 	width: 75%;
-	height: 100%;
+	height: 50%;
 	display: none;
 	margin-top: 10px;
 	font-family: "Lato";
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 30px;
 	text-align: center;
 	color: white;
+}
+
+#exploration-container div {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
