@@ -214,14 +214,12 @@ path {
 	width: 100%;
 	height: 45%;
 	margin: 0 auto;
-	opacity: 0.9;
 	display: inline-block;
 	position: relative;
 }
 
 .project-pic {
-	background-color: white;
-	height: 85%;
+	height: 95%;
 	width: 29%;
 	margin-left: 0px;
 	float: left;
@@ -232,10 +230,8 @@ path {
 }
 
 .project-text {
-	background-color: black;
 	color: white;
-	opacity: 0.5;
-	height: 85%;
+	height: 95%;
 	width: 70%;
 	position: absolute;
 	margin-left: 30%;
@@ -258,7 +254,7 @@ path {
 
 .project-desc {
 	color: white;
-	height: 85%;
+	height: 95%;
 	width: 70%;
 	position: absolute;
 	margin-left: 30%;
@@ -289,7 +285,7 @@ path {
 }
 
 #me110 .project-desc, #me110 .project-text{
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.5);
 }
 
 #me110 img {
@@ -306,7 +302,7 @@ path {
 }
 
 #me107 .project-desc, #me107 .project-text{
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.5);
 }
 
 #me107 img {
