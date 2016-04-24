@@ -286,7 +286,6 @@ path {
 
 #me130 img {
 	height: 100%;
-	border-radius: 10px;
 }
 
 #me110 .project-desc, #me110 .project-text{
@@ -295,7 +294,6 @@ path {
 
 #me110 img {
 	width: 100%;
-	border-radius: 10px;
 }
 
 #me122 .project-desc, #me122 .project-text{
@@ -305,7 +303,6 @@ path {
 
 #me122 img {
 	height: 100%;
-	border-radius: 10px;
 }
 
 #me107 .project-desc, #me107 .project-text{
@@ -314,7 +311,6 @@ path {
 
 #me107 img {
 	height: 100%;
-	border-radius: 10px;
 }
 
 #me102b .project-desc, #me102b .project-text{
@@ -324,7 +320,6 @@ path {
 
 #me102b img {
 	width: 100%;
-	border-radius: 10px;
 }
 
 #exploration-container {
