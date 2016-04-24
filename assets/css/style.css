@@ -223,12 +223,11 @@ path {
 	background-color: white;
 	height: 85%;
 	width: 29%;
-	margin-left: 20px;
+	margin-left: 0px;
 	float: left;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	border-radius: 10px;
 	overflow: hidden;
 }
 
@@ -237,12 +236,11 @@ path {
 	color: white;
 	opacity: 0.5;
 	height: 85%;
-	width: 65%;
+	width: 70%;
 	position: absolute;
-	margin-left: 33%;
+	margin-left: 30%;
 	top: 50%;
 	transform: translateY(-50%);
-	border-radius: 10px;
 	text-align: center;
 	position: absolute;
 }
@@ -259,16 +257,13 @@ path {
 }
 
 .project-desc {
-	background-color: black;
 	color: white;
-	opacity: 0.5;
 	height: 85%;
-	width: 65%;
+	width: 70%;
 	position: absolute;
-	margin-left: 33%;
+	margin-left: 30%;
 	top: 50%;
 	transform: translateY(-50%);
-	border-radius: 10px;
 	text-align: center;
 	position: absolute;
 	display: none;
@@ -284,8 +279,9 @@ path {
 	margin: 0px
 }
 
-#me130 {
+#me130 .project-desc, #me130 .project-text{
 	background-color: #00384d;
+	opacity: 0.9;
 }
 
 #me130 img {
@@ -293,8 +289,8 @@ path {
 	border-radius: 10px;
 }
 
-#me110 {
-	background-color: rgba(0,0,0,0.1);
+#me110 .project-desc, #me110 .project-text{
+	background-color: rgba(0,0,0,0.9);
 }
 
 #me110 img {
@@ -302,8 +298,9 @@ path {
 	border-radius: 10px;
 }
 
-#me122 {
+#me122 .project-desc, #me122 .project-text{
 	background-color: #00384d;
+	opacity: 0.9;
 }
 
 #me122 img {
@@ -311,8 +308,8 @@ path {
 	border-radius: 10px;
 }
 
-#me107 {
-	background-color: rgba(0,0,0,0.1);
+#me107 .project-desc, #me107 .project-text{
+	background-color: rgba(0,0,0,0.9);
 }
 
 #me107 img {
@@ -320,8 +317,9 @@ path {
 	border-radius: 10px;
 }
 
-#me102b {
+#me102b .project-desc, #me102b .project-text{
 	background-color: #00384d;
+	opacity: 0.9;
 }
 
 #me102b img {
@@ -336,6 +334,7 @@ path {
 	height: 50%;
 	display: none;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	font-family: "Lato";
 	font-weight: 300;
 	font-size: 30px;
