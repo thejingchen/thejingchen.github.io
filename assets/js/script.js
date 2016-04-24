@@ -1,5 +1,6 @@
 $(document).ready(function() {
- $("#first-row").hover(function(){
+
+  $("#first-row").hover(function(){
     if(!$("#first-row").hasClass(".row-active")) {
       $("#first-row").css("cursor","pointer");
     }
@@ -178,16 +179,16 @@ $("#third-row").hover(function(){
     $("#me107 .project-text p").fadeOut(200);
     $("#me107 .project-desc").fadeIn(200);
     }, function() {
-    $("#me107 .project-text p").fadeIn(500);
-    $("#me107 .project-desc").fadeOut(500);
+    $("#me107 .project-text p").fadeIn(200);
+    $("#me107 .project-desc").fadeOut(200);
   });
 
   $("#me102b .project-pic").hover(function() {
-    $("#me102b .project-text p").fadeOut(500);
-    $("#me102b .project-desc").fadeIn(500);
+    $("#me102b .project-text p").fadeOut(200);
+    $("#me102b .project-desc").fadeIn(200);
     }, function() {
-    $("#me102b .project-text p").fadeIn(500);
-    $("#me102b .project-desc").fadeOut(500);
+    $("#me102b .project-text p").fadeIn(200);
+    $("#me102b .project-desc").fadeOut(200);
   });
 
 });
