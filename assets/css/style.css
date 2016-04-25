@@ -28,7 +28,7 @@ body {
 
 #return-to-home {
 	height: 40px;
-	width: 25%;
+	width: 300px;
 	margin: 0 auto;
 	text-align: center;
 	font-family: "Lato";
@@ -54,7 +54,7 @@ body {
 }
 
 .row {
-	width: 75%;
+	width: 900px;
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
@@ -90,8 +90,8 @@ body {
 .row-box {
 	display: inline-block;
 	margin: 0 auto;
-	width: 33.33%;
-	height: 45%;
+	width: 300px;
+	height: 275px;
 	overflow: hidden;
 	background-color: black;
 }
@@ -171,8 +171,8 @@ path {
 
 #about-container {
 	margin: 0 auto;
-	width: 75%;
-	height: 100%;
+	width: 900px;
+	height: 650px;
 	display: none;
 	margin-top: 10px;
 	font-family: "Lato";
@@ -214,7 +214,7 @@ path {
 
 #projects-container {
 	margin: 0 auto;
-	width: 75%;
+	width: 900px;
 	display: none;
 	margin-top: 10px;
 	font-family: "Lato";
@@ -335,7 +335,7 @@ path {
 #exploration-container {
 	background-color: rgba(0,0,0,0.75);
 	margin: 0 auto;
-	width: 75%;
+	width: 900px;
 	height: 50%;
 	display: none;
 	margin-top: 10px;
