@@ -42,6 +42,10 @@ body {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	visibility: hidden;
 }
 
@@ -51,6 +55,7 @@ body {
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
 	-o-transition: .3s;
+	-ms-transition: .3s;
 }
 
 .row {
@@ -72,6 +77,10 @@ body {
 	width: 100%;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	font-size: 25px;
 	font-weight: 300;
 	font-family: "Lato";
@@ -81,6 +90,7 @@ body {
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
 	-o-transition: .3s;
+	-ms-transition: .3s;
 }
 
 .row:hover .category {
@@ -102,6 +112,7 @@ body {
 	-webkit-transition: .4s;
 	-moz-transition: .4s;
 	-o-transition: .4s;
+	-ms-transition: .4s;
 }
 
 #name-box {
@@ -115,6 +126,7 @@ svg {
 	-webkit-filter: invert(75%);
 	-moz-filter: invert(75%);
 	-o-filter: invert(75%);
+	-ms-filter: invert(75%);
     filter: invert(75%);
 }
 
@@ -151,6 +163,7 @@ path {
 	-webkit-transition: .2s;
 	-moz-transition: .2s;
 	-o-transition: .2s;
+	-ms-transition: .2s;
 }
 
 #mail img {
@@ -166,7 +179,11 @@ path {
 	text-align: center;
 	position: relative;
 	top: 50%;
-	transform:translateY(50%);
+	transform: translateY(50%);
+	-webkit-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-o-transform: translateY(50%);
+	-ms-transform: translateY(50%);
 }
 
 #about-container {
@@ -241,6 +258,10 @@ path {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	overflow: hidden;
 }
 
@@ -252,6 +273,10 @@ path {
 	margin-left: 30%;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	text-align: center;
 	position: absolute;
 }
@@ -275,6 +300,10 @@ path {
 	margin-left: 30%;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	text-align: center;
 	position: absolute;
 	display: none;
@@ -352,4 +381,8 @@ path {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 }
