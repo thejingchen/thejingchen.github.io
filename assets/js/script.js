@@ -188,9 +188,9 @@ $("#third-row").hover(function(){
     if(!$("#project-first-row").hasClass(".project-row-active")) {
       $("#project-first-row").css("cursor","pointer");
     }
-    else {
-      $("#project-first-row").css("cursor","default");
-    }
+    // else {
+    //   $("#project-first-row").css("cursor","default");
+    // }
     $("#project-first-row img").css("opacity", 0.5);
     $("#dum-e").css("visibility","visible");
     $("#dum-e").fadeIn(0);
@@ -205,9 +205,9 @@ $("#third-row").hover(function(){
     if(!$("#project-second-row").hasClass(".project-row-active")) {
       $("#project-second-row").css("cursor","pointer");
     }
-    else {
-      $("#project-second-row").css("cursor","default");
-    }
+    // else {
+    //   $("#project-second-row").css("cursor","default");
+    // }
     $("#project-second-row img").css("opacity", 0.5);
     $("#zest").css("visibility","visible");
     $("#zest").fadeIn(0);
@@ -222,9 +222,9 @@ $("#project-third-row").hover(function(){
     if(!$("#project-third-row").hasClass(".project-row-active")) {
       $("#project-third-row").css("cursor","pointer");
     }
-    else {
-      $("#project-third-row").css("cursor","default");
-    }
+    // else {
+    //   $("#project-third-row").css("cursor","default");
+    // }
     $("#project-third-row img").css("opacity", 0.5);
     $("#mechatronic-hand").css("visibility","visible");
     $("#mechatronic-hand").fadeIn(0);
@@ -239,9 +239,9 @@ $("#project-fourth-row").hover(function(){
     if(!$("#project-fourth-row").hasClass(".project-row-active")) {
       $("#project-fourth-row").css("cursor","pointer");
     }
-    else {
-      $("#project-fourth-row").css("cursor","default");
-    }
+    // else {
+    //   $("#project-fourth-row").css("cursor","default");
+    // }
     $("#project-fourth-row img").css("opacity", 0.5);
     $("#eargonomic").css("visibility","visible");
     $("#eargonomic").fadeIn(0);
@@ -256,9 +256,9 @@ $("#project-fifth-row").hover(function(){
     if(!$("#project-fifth-row").hasClass(".project-row-active")) {
       $("#project-fifth-row").css("cursor","pointer");
     }
-    else {
-      $("#project-fifth-row").css("cursor","default");
-    }
+    // else {
+    //   $("#project-fifth-row").css("cursor","default");
+    // }
     $("#project-fifth-row img").css("opacity", 0.5);
     $("#other").css("visibility","visible");
     $("#other").fadeIn(0);
@@ -294,6 +294,16 @@ $("#project-first-row").click(function(){
       $("#dum-e-container").delay(400).slideDown(500);
       $(window).scrollTop(0);
     }
+    else {
+      $("#project-first-row").removeClass(".project-row-active");
+      $("#project-first-row").fadeOut(500)
+      setTimeout(function() {
+        $("#project-first-row, #project-second-row, #project-third-row, #project-fourth-row, #project-fifth-row").fadeIn(500);
+      }, 500);
+      $("#dum-e-container").slideUp(500);
+      $("#project-first-row img").css("opacity", 1);
+      $("#dum-e").fadeOut(0);
+    }
   });
 
 $("#first-close").click(function(){
@@ -314,6 +324,16 @@ $("#first-close").click(function(){
       $("#project-second-row").fadeOut(200).delay(200).fadeIn(500);
       $("#zest-container").delay(400).slideDown(500);
       $(window).scrollTop(0);
+    }
+    else {
+      $("#project-second-row").removeClass(".project-row-active");
+      $("#project-second-row").fadeOut(500)
+      setTimeout(function() {
+        $("#project-first-row, #project-second-row, #project-third-row, #project-fourth-row, #project-fifth-row").fadeIn(500);
+      }, 500);
+      $("#zest-container").slideUp(500);
+      $("#project-second-row img").css("opacity", 1);
+      $("#zest").fadeOut(0);
     }
   });
 
@@ -336,6 +356,16 @@ $("#first-close").click(function(){
       $("#mechatronic-hand-container").delay(400).slideDown(500);
       $(window).scrollTop(0);
     }
+    else {
+      $("#project-third-row").removeClass(".project-row-active");
+      $("#project-third-row").fadeOut(500)
+      setTimeout(function() {
+        $("#project-first-row, #project-second-row, #project-third-row, #project-fourth-row, #project-fifth-row").fadeIn(500);
+      }, 500);
+      $("#mechatronic-hand-container").slideUp(500);
+      $("#project-third-row img").css("opacity", 1);
+      $("#mechatronic-hand").fadeOut(0);
+    }
   });
 
   $("#third-close").click(function(){
@@ -356,6 +386,16 @@ $("#first-close").click(function(){
         $("#project-fourth-row").fadeOut(200).delay(200).fadeIn(500);
         $("#eargonomic-container").delay(400).slideDown(500);
         $(window).scrollTop(0);
+    }
+    else {
+      $("#project-fourth-row").removeClass(".project-row-active");
+      $("#project-fourth-row").fadeOut(500)
+      setTimeout(function() {
+        $("#project-first-row, #project-second-row, #project-third-row, #project-fourth-row, #project-fifth-row").fadeIn(500);
+      }, 500);
+      $("#eargonomic-container").slideUp(500);
+      $("#project-fourth-row img").css("opacity", 1);
+      $("#eargonomic").fadeOut(0);
     }
   });
 
@@ -379,6 +419,17 @@ $("#first-close").click(function(){
       $(window).scrollTop(0);
 
       $("#project-fifth-row").css("margin-bottom","0");
+    }
+    else {
+      $("#project-fifth-row").removeClass(".project-row-active");
+      $("#project-fifth-row").fadeOut(500)
+      setTimeout(function() {
+        $("#project-first-row, #project-second-row, #project-third-row, #project-fourth-row, #project-fifth-row").fadeIn(500);
+        $("#project-fifth-row").css("margin-bottom","50px");
+      }, 500);
+      $("#other-container").slideUp(500);
+      $("#project-fifth-row img").css("opacity", 1);
+      $("#other").fadeOut(0);
     }
   });
 
