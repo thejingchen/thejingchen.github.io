@@ -125,18 +125,23 @@ $("#third-row").hover(function(){
       $("#project-first-row").removeClass(".project-row-active");
       $("#project-first-row").fadeOut(500)
       $("#project-first-row img").css("opacity", 1);
+      $("#dum-e").fadeOut(0);
       $("#project-second-row").removeClass(".project-row-active");
       $("#project-second-row").fadeOut(500)
       $("#project-second-row img").css("opacity", 1);
+      $("#zest").fadeOut(0);
       $("#project-third-row").removeClass(".project-row-active");
       $("#project-third-row").fadeOut(500)
       $("#project-third-row img").css("opacity", 1);
+      $("#mechatronic-hand").fadeOut(0);
       $("#project-fourth-row").removeClass(".project-row-active");
       $("#project-fourth-row").fadeOut(500)
       $("#project-fourth-row img").css("opacity", 1);
+      $("#eargonomic").fadeOut(0);
       $("#project-fifth-row").removeClass(".project-row-active");
       $("#project-fifth-row").fadeOut(500)
       $("#project-fifth-row img").css("opacity", 1);
+      $("#other").fadeOut(0);
       // $("#project-sixth-row").removeClass(".project-row-active");
       // $("#project-sixth-row").fadeOut(500)
       $("#project-fifth-row").css("margin-bottom","50px");
@@ -287,6 +292,7 @@ $("#project-first-row").click(function(){
       $("#project-second-row, #project-third-row, #project-fourth-row, #project-fifth-row").fadeOut(200);
       $("#project-first-row").fadeOut(200).delay(200).fadeIn(500);
       $("#dum-e-container").delay(400).slideDown(500);
+      $(window).scrollTop(0);
     }
   });
 
@@ -298,6 +304,7 @@ $("#first-close").click(function(){
       }, 500);
       $("#dum-e-container").slideUp(500);
       $("#project-first-row img").css("opacity", 1);
+      $("#dum-e").fadeOut(0);
   });
 
   $("#project-second-row").click(function(){
@@ -306,6 +313,7 @@ $("#first-close").click(function(){
       $("#project-first-row, #project-third-row, #project-fourth-row, #project-fifth-row").fadeOut(200);
       $("#project-second-row").fadeOut(200).delay(200).fadeIn(500);
       $("#zest-container").delay(400).slideDown(500);
+      $(window).scrollTop(0);
     }
   });
 
@@ -317,6 +325,7 @@ $("#first-close").click(function(){
       }, 500);
       $("#zest-container").slideUp(500);
       $("#project-second-row img").css("opacity", 1);
+      $("#zest").fadeOut(0);
   });
 
   $("#project-third-row").click(function(){
@@ -325,6 +334,7 @@ $("#first-close").click(function(){
       $("#project-second-row, #project-first-row, #project-fourth-row, #project-fifth-row").fadeOut(200);
       $("#project-third-row").fadeOut(200).delay(200).fadeIn(500);
       $("#mechatronic-hand-container").delay(400).slideDown(500);
+      $(window).scrollTop(0);
     }
   });
 
@@ -336,6 +346,7 @@ $("#first-close").click(function(){
       }, 500);
       $("#mechatronic-hand-container").slideUp(500);
       $("#project-third-row img").css("opacity", 1);
+      $("#mechatronic-hand").fadeOut(0);
   });
 
     $("#project-fourth-row").click(function(){
@@ -344,6 +355,7 @@ $("#first-close").click(function(){
         $("#project-first-row, #project-second-row, #project-third-row, #project-fifth-row").fadeOut(200);
         $("#project-fourth-row").fadeOut(200).delay(200).fadeIn(500);
         $("#eargonomic-container").delay(400).slideDown(500);
+        $(window).scrollTop(0);
     }
   });
 
@@ -355,6 +367,7 @@ $("#first-close").click(function(){
       }, 500);
       $("#eargonomic-container").slideUp(500);
       $("#project-fourth-row img").css("opacity", 1);
+      $("#eargonomic").fadeOut(0);
   });
 
     $("#project-fifth-row").click(function(){
@@ -363,6 +376,7 @@ $("#first-close").click(function(){
       $("#project-first-row, #project-second-row, #project-third-row, #project-fourth-row").fadeOut(200);
       $("#project-fifth-row").fadeOut(200).delay(200).fadeIn(500);
       $("#other-container").delay(400).slideDown(500);
+      $(window).scrollTop(0);
 
       $("#project-fifth-row").css("margin-bottom","0");
     }
@@ -377,6 +391,7 @@ $("#first-close").click(function(){
       }, 500);
       $("#other-container").slideUp(500);
       $("#project-fifth-row img").css("opacity", 1);
+      $("#other").fadeOut(0);
   });
 
   //   $("#project-sixth-row").click(function(){
