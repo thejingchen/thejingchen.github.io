@@ -11,7 +11,7 @@ body {
 
 #top-bar {
 	height: 60px;
-	width: 75%;
+	width: 900px;
 	margin: 0 auto;
 	margin-top: 20px;
 	text-align: center;
@@ -22,7 +22,7 @@ body {
 
 #description {
 	height: 10px;
-	width: 75%;
+	width: 900px;
 	margin: 0 auto;
 	text-align: center;
 	font-family: "Lato";
