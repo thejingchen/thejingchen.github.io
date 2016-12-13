@@ -447,7 +447,7 @@ path {
 	background-color: rgba(0,0,0,0.75);
 	margin: 0 auto;
 	width: 900px;
-	height: 50%;
+/*	height: 50%;*/
 	display: none;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -470,8 +470,22 @@ path {
 }
 
 #eargonomic-description {
-	padding: 5px;
-	margin: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#eargonomic-description a {
+	text-decoration: none;
+	color: #ff6666;
+}
+
+#eargonomic-description a:hover {
+	opacity: 0.8;
+}
+
+#eargonomic-description img {
+	max-width: 100%;
+	max-height: 100%
 }
 
 #fourth-close {
@@ -577,7 +591,16 @@ path {
 }
 
 .close:hover {
-	opacity: 0.8;
+	opacity: 0.5;
+}
+
+ul, li{
+    list-style:none;
+    list-style-type:none;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 /*.project-box {
