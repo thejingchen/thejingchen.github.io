@@ -344,6 +344,10 @@ path {
 	color: #ff6666;
 }
 
+#dum-e-description a:hover {
+	opacity: 0.8;
+}
+
 #first-close {
  	position: absolute;
  	top: 0;
@@ -392,6 +396,10 @@ path {
 #zest-description a {
 	text-decoration: none;
 	color: #ff6666;
+}
+
+#zest-description a:hover {
+	opacity: 0.8;
 }
 
 #second-close {
